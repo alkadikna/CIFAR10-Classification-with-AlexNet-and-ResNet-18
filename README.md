@@ -4,7 +4,6 @@
   <img src="https://github.com/user-attachments/assets/977b75d7-cbab-4fe8-8dd2-508b19dd4ba5" alt="CIFAR-10 Dataset" width="500"/>
 </p>
 
-
 ## Daftar Isi
 - [Deskripsi Proyek](#deskripsi-proyek)
 - [Arsitektur Model](#arsitektur-model)
@@ -80,12 +79,18 @@ cd CIFAR10-Classification-with-AlexNet-and-ResNet-18
 ## Hasil
 Setelah notebook dijalankan, hasil akan berupa akurasi dan loss dari trainin dan testing. Untuk hyperparameter, di kedua model adalah **sama**.
 
-![hyperparam](https://github.com/user-attachments/assets/25674d2c-de40-48dd-a507-476ea77a0303)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/25674d2c-de40-48dd-a507-476ea77a0303" alt="" width="500"/>
+</p>
 
 ### Hasil AlexNet
-![hasil_alexnet](https://github.com/user-attachments/assets/c8b03ef5-a883-4aa6-9703-8ecd50065551)
-![plotAlexNet](https://github.com/user-attachments/assets/4fa603d8-9419-47fd-a80c-02b0d56bb155)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c8b03ef5-a883-4aa6-9703-8ecd50065551" alt=""/>
+  <img src="https://github.com/user-attachments/assets/4fa603d8-9419-47fd-a80c-02b0d56bb155" alt="" width="500"/>
+</p>
 
 ### Hasil ResNet
-![hasil_resnet18](https://github.com/user-attachments/assets/98e3af9e-ab47-4646-ba49-7bd4d613e779)
-![plotResNet](https://github.com/user-attachments/assets/c9209b0c-badc-429a-a218-b4efb0480a84)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/98e3af9e-ab47-4646-ba49-7bd4d613e779" alt=""/>
+  <img src="https://github.com/user-attachments/assets/c9209b0c-badc-429a-a218-b4efb0480a84" alt="" width="500"/>
+</p>
