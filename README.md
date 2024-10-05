@@ -1,6 +1,9 @@
 # Klasifikasi Gambar menggunakan AlexNet dan ResNet pada CIFAR-10
 
-![CIFAR-10 Dataset](https://github.com/user-attachments/assets/977b75d7-cbab-4fe8-8dd2-508b19dd4ba5)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/977b75d7-cbab-4fe8-8dd2-508b19dd4ba5" alt="CIFAR-10 Dataset" width="500"/>
+</p>
+
 
 ## Daftar Isi
 - [Deskripsi Proyek](#deskripsi-proyek)
