@@ -4,7 +4,6 @@
 
 ## Daftar Isi
 - [Deskripsi Proyek](#deskripsi-proyek)
-- [Persiapan](#persiapan)
 - [Arsitektur Model](#arsitektur-model)
   - [AlexNet](#alexnet)
   - [ResNet](#resnet)
@@ -12,17 +11,12 @@
 - [Instalasi](#instalasi)
 - [Penggunaan](#penggunaan)
 - [Hasil](#hasil)
-- [Lisensi](#lisensi)
-- [Penghargaan](#penghargaan)
 
-## Deskripsi Proyek
-Proyek ini mengimplementasikan dua model deep learning, **AlexNet** dan **ResNet**, untuk klasifikasi gambar pada dataset CIFAR-10. Dataset CIFAR-10 terdiri dari 60.000 gambar warna berukuran 32x32 piksel dalam 10 kelas, dengan masing-masing kelas memiliki 6.000 gambar. Tujuan proyek ini adalah untuk mengeksplorasi performa dari kedua model ini pada dataset gambar yang lebih kecil.
+## Deskripsi Eksperimen
+Eksperimen ini mengimplementasikan dua model deep learning, yaitu **AlexNet** dan **ResNet-18**, untuk klasifikasi gambar pada dataset CIFAR-10. Dataset CIFAR-10 terdiri dari 60.000 gambar warna berukuran 32x32 piksel dalam 10 kelas, dengan masing-masing kelas memiliki 6.000 gambar. Tujuan eksperimen ini adalah untuk melihat dan membandingkan performa dari kedua model pada dataset CIFAR-10.
 
-## Persiapan
-Sebelum memulai proyek ini, pastikan Anda telah menginstal Python beserta pustaka yang diperlukan.
-
-### Kebutuhan
-- Python 3.x
+### Requirement
+- Python 3.10
 - Jupyter Notebook
 - PyTorch
 - torchvision
@@ -61,13 +55,25 @@ Dataset **CIFAR-10** terdiri dari 10 kelas:
 - Kapal
 - Truk
 
-### Mengunduh Dataset
+### Download Dataset
 Dataset dapat dengan mudah diunduh menggunakan torchvision. Dataset pelatihan dan pengujian diunduh secara otomatis saat pelatihan model.
 
 ## Instalasi
 Clone repositori dan instal paket yang diperlukan:
 
 ```bash
-git clone https://github.com/yourusername/nama-repo-anda.git
-cd nama-repo-anda
-pip install -r requirements.txt
+git clone https://github.com/alkadikna/CIFAR10-Classification-with-AlexNet-and-ResNet-18
+cd CIFAR10-Classification-with-AlexNet-and-ResNet-18
+```
+
+## Hasil
+Setelah notebook dijalankan, hasil akan berupa akurasi dan loss dari trainin dan testing. Untuk hyperparameter, di kedua model adalah sama.
+![cnn_hyperparam](https://github.com/user-attachments/assets/a2c8f419-1002-464d-96cd-4156666c02be)
+
+### AlexNet
+![hasilAlexNet](https://github.com/user-attachments/assets/8ccf9ad3-98d4-42a3-8f82-311549af5723)
+![plotAlexNet](https://github.com/user-attachments/assets/4fa603d8-9419-47fd-a80c-02b0d56bb155)
+
+### ResNet-18
+![hasilResNet](https://github.com/user-attachments/assets/263b6820-f1d0-472c-83c9-4d897c352d47)
+![plotResNet](https://github.com/user-attachments/assets/c9209b0c-badc-429a-a218-b4efb0480a84)
