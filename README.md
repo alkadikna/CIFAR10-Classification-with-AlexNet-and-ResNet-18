@@ -76,7 +76,7 @@ cd CIFAR10-Classification-with-AlexNet-and-ResNet-18
 ```
 
 ## Hasil
-Setelah notebook dijalankan, hasil akan berupa akurasi dan loss dari trainin dan testing. Untuk hyperparameter, di kedua model adalah **sama**.
+Setelah notebook dijalankan, hasil akan berupa akurasi dan loss dari training dan testing. Untuk hyperparameter, di kedua model adalah **sama**.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/25674d2c-de40-48dd-a507-476ea77a0303" alt="" width="500"/>
