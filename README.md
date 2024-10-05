@@ -12,7 +12,6 @@
 - [Dataset](#dataset)
   - [Regulasi](#teknik-regulasi)
 - [Instalasi](#instalasi)
-- [Penggunaan](#penggunaan)
 - [Hasil](#hasil)
   - [AlexNet](#hasil-alexnet)
   - [ResNet](#hasil-resnet)
