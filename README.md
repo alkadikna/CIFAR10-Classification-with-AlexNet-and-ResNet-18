@@ -5,7 +5,7 @@
 </p>
 
 ## Daftar Isi
-- [Deskripsi Proyek](#deskripsi-proyek)
+- [Deskripsi](#deskripsi-eksperimen)
 - [Arsitektur Model](#arsitektur-model)
   - [AlexNet](#alexnet)
   - [ResNet](#resnet)
