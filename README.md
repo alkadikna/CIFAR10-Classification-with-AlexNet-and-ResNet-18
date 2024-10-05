@@ -12,8 +12,8 @@
 - [Instalasi](#instalasi)
 - [Penggunaan](#penggunaan)
 - [Hasil](#hasil)
-  - [AlexNet](#alexnet)
-  - [ResNet](#resnet)
+  - [AlexNet](#hasil-alexnet)
+  - [ResNet](#hasil-resnet)
 
 ## Deskripsi Eksperimen
 Eksperimen ini mengimplementasikan dua model deep learning, yaitu **AlexNet** dan **ResNet-18**, untuk klasifikasi gambar pada dataset CIFAR-10. Dataset CIFAR-10 terdiri dari 60.000 gambar warna berukuran 32x32 piksel dalam 10 kelas, dengan masing-masing kelas memiliki 6.000 gambar. Tujuan eksperimen ini adalah untuk melihat dan membandingkan performa dari kedua model pada dataset CIFAR-10.
@@ -79,10 +79,10 @@ Setelah notebook dijalankan, hasil akan berupa akurasi dan loss dari trainin dan
 
 ![hyperparam](https://github.com/user-attachments/assets/25674d2c-de40-48dd-a507-476ea77a0303)
 
-### AlexNet
+### Hasil AlexNet
 ![hasil_alexnet](https://github.com/user-attachments/assets/c8b03ef5-a883-4aa6-9703-8ecd50065551)
 ![plotAlexNet](https://github.com/user-attachments/assets/4fa603d8-9419-47fd-a80c-02b0d56bb155)
 
-### ResNet
+### Hasil ResNet
 ![hasil_resnet18](https://github.com/user-attachments/assets/98e3af9e-ab47-4646-ba49-7bd4d613e779)
 ![plotResNet](https://github.com/user-attachments/assets/c9209b0c-badc-429a-a218-b4efb0480a84)
